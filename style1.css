@@ -1,0 +1,32 @@
+table,th,td,#t01 {
+    border: 1px solid black;
+   
+}
+
+th,td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+#t01 tr:nth-child(even) {
+    background-color: gray;
+}
+
+#t01 tr:nth-child(odd) {
+    background-color: honeydew;
+}
+
+#t01 th {
+    background-color: black;
+    color: cornsilk;
+
+}
+
+
+
+
+
+   
